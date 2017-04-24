@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E05D11941EAEC84C007D8875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D11931EAEC84C007D8875 /* AppDelegate.swift */; };
+		E05D11961EAEC84C007D8875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D11951EAEC84C007D8875 /* ViewController.swift */; };
+		E05D11991EAEC84C007D8875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05D11971EAEC84C007D8875 /* Main.storyboard */; };
+		E05D119B1EAEC84C007D8875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05D119A1EAEC84C007D8875 /* Assets.xcassets */; };
+		E05D119E1EAEC84C007D8875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05D119C1EAEC84C007D8875 /* LaunchScreen.storyboard */; };
+		E05D11A91EAEC84C007D8875 /* OfficeNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D11A81EAEC84C007D8875 /* OfficeNoteTests.swift */; };
+		E05D11B41EAEC84C007D8875 /* OfficeNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D11B31EAEC84C007D8875 /* OfficeNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E05D11A51EAEC84C007D8875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E05D11881EAEC84C007D8875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E05D118F1EAEC84C007D8875;
+			remoteInfo = OfficeNote;
+		};
+		E05D11B01EAEC84C007D8875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E05D11881EAEC84C007D8875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E05D118F1EAEC84C007D8875;
+			remoteInfo = OfficeNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E05D11901EAEC84C007D8875 /* OfficeNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05D11931EAEC84C007D8875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E05D11951EAEC84C007D8875 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E05D11981EAEC84C007D8875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E05D119A1EAEC84C007D8875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E05D119D1EAEC84C007D8875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E05D119F1EAEC84C007D8875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05D11A41EAEC84C007D8875 /* OfficeNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfficeNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05D11A81EAEC84C007D8875 /* OfficeNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeNoteTests.swift; sourceTree = "<group>"; };
+		E05D11AA1EAEC84C007D8875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05D11AF1EAEC84C007D8875 /* OfficeNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfficeNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05D11B31EAEC84C007D8875 /* OfficeNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeNoteUITests.swift; sourceTree = "<group>"; };
+		E05D11B51EAEC84C007D8875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05D118D1EAEC84C007D8875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05D11A11EAEC84C007D8875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05D11AC1EAEC84C007D8875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E05D11871EAEC84C007D8875 = {
+			isa = PBXGroup;
+			children = (
+				E05D11921EAEC84C007D8875 /* OfficeNote */,
+				E05D11A71EAEC84C007D8875 /* OfficeNoteTests */,
+				E05D11B21EAEC84C007D8875 /* OfficeNoteUITests */,
+				E05D11911EAEC84C007D8875 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E05D11911EAEC84C007D8875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05D11901EAEC84C007D8875 /* OfficeNote.app */,
+				E05D11A41EAEC84C007D8875 /* OfficeNoteTests.xctest */,
+				E05D11AF1EAEC84C007D8875 /* OfficeNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05D11921EAEC84C007D8875 /* OfficeNote */ = {
+			isa = PBXGroup;
+			children = (
+				E05D11931EAEC84C007D8875 /* AppDelegate.swift */,
+				E05D11951EAEC84C007D8875 /* ViewController.swift */,
+				E05D11971EAEC84C007D8875 /* Main.storyboard */,
+				E05D119A1EAEC84C007D8875 /* Assets.xcassets */,
+				E05D119C1EAEC84C007D8875 /* LaunchScreen.storyboard */,
+				E05D119F1EAEC84C007D8875 /* Info.plist */,
+			);
+			path = OfficeNote;
+			sourceTree = "<group>";
+		};
+		E05D11A71EAEC84C007D8875 /* OfficeNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E05D11A81EAEC84C007D8875 /* OfficeNoteTests.swift */,
+				E05D11AA1EAEC84C007D8875 /* Info.plist */,
+			);
+			path = OfficeNoteTests;
+			sourceTree = "<group>";
+		};
+		E05D11B21EAEC84C007D8875 /* OfficeNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E05D11B31EAEC84C007D8875 /* OfficeNoteUITests.swift */,
+				E05D11B51EAEC84C007D8875 /* Info.plist */,
+			);
+			path = OfficeNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05D118F1EAEC84C007D8875 /* OfficeNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05D11B81EAEC84C007D8875 /* Build configuration list for PBXNativeTarget "OfficeNote" */;
+			buildPhases = (
+				E05D118C1EAEC84C007D8875 /* Sources */,
+				E05D118D1EAEC84C007D8875 /* Frameworks */,
+				E05D118E1EAEC84C007D8875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfficeNote;
+			productName = OfficeNote;
+			productReference = E05D11901EAEC84C007D8875 /* OfficeNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E05D11A31EAEC84C007D8875 /* OfficeNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05D11BB1EAEC84C007D8875 /* Build configuration list for PBXNativeTarget "OfficeNoteTests" */;
+			buildPhases = (
+				E05D11A01EAEC84C007D8875 /* Sources */,
+				E05D11A11EAEC84C007D8875 /* Frameworks */,
+				E05D11A21EAEC84C007D8875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E05D11A61EAEC84C007D8875 /* PBXTargetDependency */,
+			);
+			name = OfficeNoteTests;
+			productName = OfficeNoteTests;
+			productReference = E05D11A41EAEC84C007D8875 /* OfficeNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E05D11AE1EAEC84C007D8875 /* OfficeNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05D11BE1EAEC84C007D8875 /* Build configuration list for PBXNativeTarget "OfficeNoteUITests" */;
+			buildPhases = (
+				E05D11AB1EAEC84C007D8875 /* Sources */,
+				E05D11AC1EAEC84C007D8875 /* Frameworks */,
+				E05D11AD1EAEC84C007D8875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E05D11B11EAEC84C007D8875 /* PBXTargetDependency */,
+			);
+			name = OfficeNoteUITests;
+			productName = OfficeNoteUITests;
+			productReference = E05D11AF1EAEC84C007D8875 /* OfficeNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05D11881EAEC84C007D8875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "J Massott";
+				TargetAttributes = {
+					E05D118F1EAEC84C007D8875 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DUT987YW6Q;
+						ProvisioningStyle = Automatic;
+					};
+					E05D11A31EAEC84C007D8875 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DUT987YW6Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E05D118F1EAEC84C007D8875;
+					};
+					E05D11AE1EAEC84C007D8875 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DUT987YW6Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E05D118F1EAEC84C007D8875;
+					};
+				};
+			};
+			buildConfigurationList = E05D118B1EAEC84C007D8875 /* Build configuration list for PBXProject "OfficeNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E05D11871EAEC84C007D8875;
+			productRefGroup = E05D11911EAEC84C007D8875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E05D118F1EAEC84C007D8875 /* OfficeNote */,
+				E05D11A31EAEC84C007D8875 /* OfficeNoteTests */,
+				E05D11AE1EAEC84C007D8875 /* OfficeNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05D118E1EAEC84C007D8875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05D119E1EAEC84C007D8875 /* LaunchScreen.storyboard in Resources */,
+				E05D119B1EAEC84C007D8875 /* Assets.xcassets in Resources */,
+				E05D11991EAEC84C007D8875 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05D11A21EAEC84C007D8875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05D11AD1EAEC84C007D8875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05D118C1EAEC84C007D8875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05D11961EAEC84C007D8875 /* ViewController.swift in Sources */,
+				E05D11941EAEC84C007D8875 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05D11A01EAEC84C007D8875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05D11A91EAEC84C007D8875 /* OfficeNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05D11AB1EAEC84C007D8875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05D11B41EAEC84C007D8875 /* OfficeNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E05D11A61EAEC84C007D8875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E05D118F1EAEC84C007D8875 /* OfficeNote */;
+			targetProxy = E05D11A51EAEC84C007D8875 /* PBXContainerItemProxy */;
+		};
+		E05D11B11EAEC84C007D8875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E05D118F1EAEC84C007D8875 /* OfficeNote */;
+			targetProxy = E05D11B01EAEC84C007D8875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E05D11971EAEC84C007D8875 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05D11981EAEC84C007D8875 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E05D119C1EAEC84C007D8875 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05D119D1EAEC84C007D8875 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E05D11B61EAEC84C007D8875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E05D11B71EAEC84C007D8875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E05D11B91EAEC84C007D8875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DUT987YW6Q;
+				INFOPLIST_FILE = OfficeNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jmp.OfficeNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E05D11BA1EAEC84C007D8875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DUT987YW6Q;
+				INFOPLIST_FILE = OfficeNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jmp.OfficeNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E05D11BC1EAEC84C007D8875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DUT987YW6Q;
+				INFOPLIST_FILE = OfficeNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jmp.OfficeNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfficeNote.app/OfficeNote";
+			};
+			name = Debug;
+		};
+		E05D11BD1EAEC84C007D8875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DUT987YW6Q;
+				INFOPLIST_FILE = OfficeNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jmp.OfficeNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfficeNote.app/OfficeNote";
+			};
+			name = Release;
+		};
+		E05D11BF1EAEC84C007D8875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DUT987YW6Q;
+				INFOPLIST_FILE = OfficeNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jmp.OfficeNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OfficeNote;
+			};
+			name = Debug;
+		};
+		E05D11C01EAEC84C007D8875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DUT987YW6Q;
+				INFOPLIST_FILE = OfficeNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jmp.OfficeNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OfficeNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05D118B1EAEC84C007D8875 /* Build configuration list for PBXProject "OfficeNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05D11B61EAEC84C007D8875 /* Debug */,
+				E05D11B71EAEC84C007D8875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05D11B81EAEC84C007D8875 /* Build configuration list for PBXNativeTarget "OfficeNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05D11B91EAEC84C007D8875 /* Debug */,
+				E05D11BA1EAEC84C007D8875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E05D11BB1EAEC84C007D8875 /* Build configuration list for PBXNativeTarget "OfficeNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05D11BC1EAEC84C007D8875 /* Debug */,
+				E05D11BD1EAEC84C007D8875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E05D11BE1EAEC84C007D8875 /* Build configuration list for PBXNativeTarget "OfficeNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05D11BF1EAEC84C007D8875 /* Debug */,
+				E05D11C01EAEC84C007D8875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E05D11881EAEC84C007D8875 /* Project object */;
+}
